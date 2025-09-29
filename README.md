@@ -1,28 +1,21 @@
 # BibTri-Align
-BibTri-Align: A Trilingual Sundanese–Indonesian–English Parallel Corpus
+BibTri-Align: A Trilingual Bible Corpus for Low-Resource Machine Translation in Sundanese
 
-This repository hosts BibTri-Align v2, a trilingual parallel corpus aligning Sundanese, Indonesian, and English Bible translations. To our knowledge, this is the first systematically aligned trilingual resource for these three languages that also includes alignment confidence metadata.
+This repository hosts BibTri-Align v2, a trilingual parallel corpus aligning Sundanese, Indonesian, and English Bible translations. To our knowledge, this is the first systematically aligned trilingual resource for these three languages that also includes metadata on alignment confidence.
 
-The resource is introduced in our article submitted to Language Resources and Evaluation.
+The resource is introduced in our article, which was submitted to Language Resources and Evaluation.
 
 Contents
 
 data/ – Corpus files in CSV and JSONL formats, with alignment confidence metadata.
-
 scripts/ – Preprocessing, alignment, heuristic scoring, and evaluation scripts.
-
 docs/ – Documentation, including annotation guidelines, usage instructions, and workflows.
 
-examples/ – Demo notebooks and baseline MT results for reproducibility.
 
 Features
-
-Trilingual alignment: Sundanese ↔ Indonesian ↔ English at verse and sentence levels.
-
+Trilingual alignment: Sundanese ↔ Indonesian ↔ English at the verse and sentence levels.
 Quality flags: High / Medium / Low reliability metadata for each aligned unit.
-
 Preprocessing pipeline: Scripts for normalization, segmentation, and tokenization.
-
 Reproducibility package: Example workflows for SMT (Moses) and NMT (Fairseq).
 
 Getting Started
