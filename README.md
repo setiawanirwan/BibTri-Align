@@ -53,4 +53,4 @@ Code: Released under the MIT License
 
 Citation
 If you use BibTri-Align v2 in your research, please cite:
-
+"BibTri-Align: A Trilingual Bible Corpus for Low-Resource Machine Translation in Sundanese", by Irwan Setiawan, HUNG-YU KAO, and KUN-TA CHUANG. Language Resources and Evaluation
